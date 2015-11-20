@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bói</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="follow_name">Tên</string>
+    <string name="follow_birthdate">Ngày sinh</string>
+    <string name="follow_two_birthdates">Hợp tuổi</string>
+    <string name="follow_date">Ngày tốt</string>
+    <string name="follow_hand">Chỉ tay</string>
+    <string name="about">About</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+
+    <EditText
+        android:id="@+id/bd2_et_birthday1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:hint="Ngay sinh cua ban"
+        android:textColor="#FF3F9FE0"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF3F9FE0"
+        android:editable="false"
+        />
+
+    <EditText
+        android:id="@+id/bd2_et_birthday2"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_alignParentRight="true"
+        android:hint="Ngay sinh nguoi ay"
+        android:textColor="#FF3F9FE0"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF3F9FE0"
+        android:editable="false"
+        />
+
+    <ImageView
+        android:id="@+id/bd2_btn_submit"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_submit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+
+</RelativeLayout>

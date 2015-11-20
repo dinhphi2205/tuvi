@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+
+    <EditText
+        android:id="@+id/bd_et_birthday"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="50dp"
+        android:hint="Nhap vao ho ten"
+        android:textColor="#FF3F9FE0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF3F9FE0"
+        android:editable="false"
+        />
+    <ImageView
+        android:id="@+id/bd_btn_pickday"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="22dp"
+        android:src="@drawable/icon_datepicker"
+        android:layout_width="37dp"
+        android:layout_height="37dp" />
+    <ImageView
+        android:id="@+id/bd_btn_submit"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="22dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_submit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        />
+
+
+</RelativeLayout>
